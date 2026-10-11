@@ -1,0 +1,15 @@
+Question,Python_Answer,GPT_Answer,Gemini_Answer,GPT_Match,Gemini_Match,GPT_Error,Gemini_Error
+Total rows,10000.0,10020,10020,Incorrect,Incorrect,20.0,20.0
+Total quantity (available values),28763.0,28785,28785,Incorrect,Incorrect,22.0,22.0
+Total recorded sales (available values),84547.5,848631,84631,Incorrect,Incorrect,764083.5,83.5
+Total calculated sales (Quantity × Price Per Unit),80064.5,80075,80064,Incorrect,Incorrect,10.5,0.5
+Total positive quantity,28763.0,28813,28813,Incorrect,Incorrect,50.0,50.0
+Total positive recorded sales,84547.5,84728,84724,Incorrect,Incorrect,180.5,176.5
+Total positive calculated sales,80064.5,80221,80221,Incorrect,Incorrect,156.5,156.5
+Missing Quantity values,504.0,497,497,Incorrect,Incorrect,7.0,7.0
+Missing Price Per Unit values,558.0,548,584,Incorrect,Incorrect,10.0,26.0
+Missing Total Spent values,527.0,517,517,Incorrect,Incorrect,10.0,10.0
+Negative Quantity values,0.0,10,10,Incorrect,Incorrect,10.0,10.0
+Negative Price Per Unit values,0.0,10,10,Incorrect,Incorrect,10.0,10.0
+Negative Total Spent values,0.0,10,10,Incorrect,Incorrect,10.0,10.0
+Exact duplicate rows,0.0,40,20,Incorrect,Incorrect,40.0,20.0

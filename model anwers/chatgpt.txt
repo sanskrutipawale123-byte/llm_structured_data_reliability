@@ -1,0 +1,74 @@
+promt-
+
+
+I am conducting an academic research study titled **“Evaluating the Reliability of Large Language Models for Structured Data Analysis: A Comparative Study with Python-Based Analytical Libraries.”**
+I have uploaded a deliberately dirty cafe sales CSV dataset. Analyze the uploaded file using the data exactly as provided. Do not silently clean, modify, or remove any records before answering.
+
+**Instructions:**
+
+1. Inspect the dataset and identify the relevant columns.
+2. Treat `Quantity`, `Price Per Unit`, and `Total Spent` as numeric fields. Convert valid numeric strings to numbers, but treat invalid text such as `ERROR` or `UNKNOWN` as missing for calculations.
+3. For ordinary numeric totals, use all available valid numeric values, including negative values, unless the question explicitly says to exclude non-positive values.
+4. For positive-only totals, include only values strictly greater than zero. For calculated sales, include a row only when both `Quantity` and `Price Per Unit` are strictly positive.
+5. Count missing values after invalid numeric text has been converted to missing values.
+6. Count exact duplicate rows by comparing complete rows in the uploaded dataset, including repeated copies.
+7. For transaction-total validation, use rows where `Quantity`, `Price Per Unit`, and `Total Spent` are all valid numeric values. Calculate `Quantity × Price Per Unit`; flag a mismatch when the absolute difference from `Total Spent` is greater than 0.01.
+8. Do not invent missing data. If a result cannot be calculated, state why.
+9. Use the entire dataset, not just a sample.
+
+**Answer the following questions in exactly this numbered order:**
+
+1. What is the total number of rows in the uploaded dataset?
+2. What is the total quantity, summing all available valid numeric values?
+3. What is the total recorded sales amount, summing all available valid numeric values in `Total Spent`?
+4. What is the total calculated sales amount, summing `Quantity × Price Per Unit` for rows where both values are valid numeric values?
+5. What is the total quantity after excluding zero and negative quantities?
+6. What is the total recorded sales amount after excluding zero and negative `Total Spent` values?
+7. What is the total calculated sales amount using only rows where both `Quantity` and `Price Per Unit` are strictly positive?
+8. How many missing or invalid numeric values are there in `Quantity`?
+9. How many missing or invalid numeric values are there in `Price Per Unit`?
+10. How many missing or invalid numeric values are there in `Total Spent`?
+11. How many negative values are present in `Quantity`?
+12. How many negative values are present in `Price Per Unit`?
+13. How many negative values are present in `Total Spent`?
+14. How many exact duplicate rows are present in the uploaded dataset?
+15. How many rows have valid numeric values for all three fields: `Quantity`, `Price Per Unit`, and `Total Spent`?
+16. Among those eligible rows, how many transaction totals mismatch `Quantity × Price Per Unit` by more than 0.01?
+
+**Required output format:**
+
+Return exactly 16 numbered answers, one answer per line, in the same order as the questions above. For questions involving totals, provide the numerical result rounded to two decimal places. For counts, provide whole numbers. Do not omit questions, merge answers, or add lengthy explanations between answers.
+
+If you cannot calculate an answer reliably, write `Unable to determine` for that line and briefly explain the limitation after the 16 answers.
+
+This experiment evaluates numerical accuracy and data-quality handling. Do not claim to have executed Python code unless you actually executed it.
+
+
+
+
+
+
+result-
+No.	Analysis	                                       Result
+1	Total number of rows	                               10,020
+2	Total quantity (all valid numeric values)	      28,785.00
+3	Total recorded sales amount	                      84,631.50
+4	Total calculated sales (Quantity × Price Per Unit)    80,075.00
+5	Total positive quantity	                              28,813.00
+6	Total positive recorded sales	                      84,724.50
+7	Total positive calculated sales	                      80,221.00
+8	Missing/invalid values in Quantity	                 497
+9	Missing/invalid values in Price Per Unit	         548
+10	Missing/invalid values in Total Spent	                 517
+11	Negative values in Quantity	                         10
+12	Negative values in Price Per Unit	                 10
+13	Negative values in Total Spent	                         10
+14	Exact duplicate rows	                                 40
+15	Rows with valid numeric values in all three fields	8,522
+16	Transaction-total mismatches exceeding 0.01	         26
+
+
+
+
+
+link-https://chatgpt.com/share/6acba2ad-d670-83ee-bf9f-fa4e32c8931c

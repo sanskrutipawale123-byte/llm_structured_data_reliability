@@ -1,0 +1,15 @@
+Metric,Python Ground Truth
+Total rows,10000.0
+Total quantity (available values),28763.0
+Total recorded sales (available values),84547.5
+Total calculated sales (Quantity × Price Per Unit),80064.5
+Total positive quantity,28763.0
+Total positive recorded sales,84547.5
+Total positive calculated sales,80064.5
+Missing Quantity values,504.0
+Missing Price Per Unit values,558.0
+Missing Total Spent values,527.0
+Negative Quantity values,0.0
+Negative Price Per Unit values,0.0
+Negative Total Spent values,0.0
+Exact duplicate rows,0.0
