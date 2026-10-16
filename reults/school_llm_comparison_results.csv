@@ -1,0 +1,14 @@
+Question,Python_Ground_Truth,ChatGPT_Answer,Gemini_Answer,ChatGPT_Absolute_Error,ChatGPT_Match,Gemini_Absolute_Error,Gemini_Match,ChatGPT_Error,Gemini_Error
+Mean Maths,58.2,58.2,58.2,0.0,Correct,0.0,Correct,0.0,0.0
+Median Maths,58.0,58.0,58.0,0.0,Correct,0.0,Correct,0.0,0.0
+Mean Physics,61.0,61.0,61.0,0.0,Correct,0.0,Correct,0.0,0.0
+Mean Chemistry,77.25,77.25,77.25,0.0,Correct,0.0,Correct,0.0,0.0
+Mean English,67.2,67.2,67.2,0.0,Correct,0.0,Correct,0.0,0.0
+Mean Biology,71.2,71.2,71.2,0.0,Correct,0.0,Correct,0.0,0.0
+Mean Economics,73.2,73.2,73.2,0.0,Correct,0.0,Correct,0.0,0.0
+Mean History,72.2,72.2,72.2,0.0,Correct,0.0,Correct,0.0,0.0
+Mean Civics,47.8,47.8,47.8,0.0,Correct,0.0,Correct,0.0,0.0
+Highest Maths,78.0,78.0,78.0,0.0,Correct,0.0,Correct,0.0,0.0
+Lowest Maths,25.0,25.0,25.0,0.0,Correct,0.0,Correct,0.0,0.0
+Maths-Physics Correlation,0.03369,0.0337,0.0337,1.0000000000003062e-05,Correct,1.0000000000003062e-05,Correct,1.0000000000003062e-05,1.0000000000003062e-05
+Number of Students,5.0,5.0,5.0,0.0,Correct,0.0,Correct,0.0,0.0

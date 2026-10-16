@@ -1,0 +1,14 @@
+Question,Python_Ground_Truth,ChatGPT_Answer,Gemini_Answer
+Mean Maths,58.2,58.2,58.2
+Median Maths,58.0,58.0,58.0
+Mean Physics,61.0,61.0,61.0
+Mean Chemistry,77.25,77.25,77.25
+Mean English,67.2,67.2,67.2
+Mean Biology,71.2,71.2,71.2
+Mean Economics,73.2,73.2,73.2
+Mean History,72.2,72.2,72.2
+Mean Civics,47.8,47.8,47.8
+Highest Maths,78.0,78.0,78.0
+Lowest Maths,25.0,25.0,25.0
+Maths-Physics Correlation,0.03369,0.0337,0.0337
+Number of Students,5.0,5.0,5.0
