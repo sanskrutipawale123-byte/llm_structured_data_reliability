@@ -1,6 +1,6 @@
 This project evaluates the reliability of Large Language Models (LLMs) in structured data analysis by comparing their responses with results obtained using Python-based analytical libraries.
 
-The study uses a deliberately unclean café sales dataset containing data quality issues such as missing values, invalid entries, negative values, and duplicate records.
+The study uses a  unclean café sales dataset containing data quality issues such as missing values, invalid entries, negative values, and duplicate records and a clean school students marks data without any missing values, invaild entries, negative values and duplicate records .
 
 Research Objectives
 
@@ -11,11 +11,13 @@ Research Objectives
 
 Project Structure
 
-- "data/" — Original and dirty café sales datasets.
-- "notebooks/" — Data cleaning, descriptive analysis, and model comparison notebooks.
+- "data/" —  dirty café sales and school marks datasets.
+- "notebooks/" — Data cleaning, descriptive analysis, and model comparison of dirty cafe sales data and school marks notebooks.
 - "results/" — Ground-truth and comparison CSV files.
-- "graphs/" — Visualizations of analytical results and model errors.
+- "graphs/" — Visualizations of analytical results and model errors for both .
 - "model_answers/" — Prompts and responses from ChatGPT and Google Gemini.
+  NOTE- "THE CAFE SALES DATA IS THE UNCLEAN ONES AND THE SCHOOL IS THE CLEAN ONES COMPARISON CAN BE DONE WITH HELP OF DIFFERENCE IN FILE NAMES"
+  
 
 Methodology
 
