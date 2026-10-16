@@ -1,0 +1,20 @@
+PROMT-GIVE ANSWERS TO THE QUESTION IN PIC(A csv file was given with the pic of question they need to answer)
+
+
+
+
+RESULT -
+No.	Question	           Answer
+0	Mean Maths	           58.20
+1	Median Maths	             58
+2	Mean Physics	           61.00
+3	Mean Chemistry	           77.25
+4	Mean English	           67.20
+5	Mean Biology	           71.20
+6	Mean Economics	           73.20
+7	Mean History	           72.20
+8	Mean Civics	           47.80
+9	Highest Maths	             78
+10	Lowest Maths	             25
+11	Maths-Physics Correlation  0.0337
+12	Number of Students	      5
