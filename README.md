@@ -11,12 +11,13 @@ Research Objectives
 
 Project Structure
 
-- "data/" —  dirty café sales and school marks datasets.
-- "notebooks/" — Data cleaning, descriptive analysis, and model comparison of dirty cafe sales data and school marks notebooks.
-- "results/" — Ground-truth and comparison CSV files.
-- "graphs/" — Visualizations of analytical results and model errors for both .
-- "model_answers/" — Prompts and responses from ChatGPT and Google Gemini.
-  NOTE- "THE CAFE SALES DATA IS THE UNCLEAN ONES AND THE SCHOOL IS THE CLEAN ONES COMPARISON CAN BE DONE WITH HELP OF DIFFERENCE IN FILE NAMES"
+- "01_data/" —  dirty café sales and school marks datasets.
+- "02_notebooks/" — Data cleaning, descriptive analysis, and model comparison of dirty cafe sales data and school marks notebooks.
+- "03_model_answers/" — Prompts and responses from ChatGPT and Google Gemini.
+- "04_results/" — Ground-truth and comparison CSV files.
+- "05_graphs/" — Visualizations of analytical results and model errors for both .
+
+NOTE- "THE CAFE SALES DATA[01] IS THE UNCLEAN ONES AND THE SCHOOL[02] IS THE CLEAN ONES COMPARISON CAN BE DONE WITH HELP OF DIFFERENCE IN FILE NAMES(SUCH AS [1.1],[1.2],[2.1],[2.2])"
   
 
 Methodology
@@ -47,6 +48,5 @@ Research Status
 
 This repository contains the implementation and experimental materials for a comparative study. Conclusions about model reliability should be based on the recorded experimental results.
 
-License
 
-No license has been selected yet. Until a license is added, reuse of this project's materials is not automatically permitted.
+
